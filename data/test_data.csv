@@ -1,32 +1,32 @@
 ﻿Source;Target;Type;weight;color
-Utmattningssyndrom;Utmattningssyndrom;Undirected;0;b
-Utmattningssyndrom;Kognitiva besvär;Undirected;5;y
-Utmattningssyndrom;Fysiska besvär;Undirected;5;r
-Utmattningssyndrom;Känslor;Undirected;5;g
-Exekutiv funktion;Kognitiva besvär;Undirected;3;y
-Minne;Kognitiva besvär;Undirected;3;y
-Uppmärksamhet och tempo;Kognitiva besvär;Undirected;3;y
-Trötthet;Fysiska besvär;Undirected;2;r
-Energilöshet;Fysiska besvär;Undirected;2;r
-Sömnproblem;Fysiska besvär;Undirected;2;r
-Hjärtklappning;Fysiska besvär;Undirected;2;r
-Yrsel;Fysiska besvär;Undirected;2;r
-Värk;Fysiska besvär;Undirected;2;r
-Mag och tarmbesvär;Fysiska besvär;Undirected;2;r
-Skuld;Känslor;Undirected;3;g
-Skam;Känslor;Undirected;3;g
-Ångest;Känslor;Undirected;3;g
-Utmattningssyndrom;Beteenden;Undirected;5;k
-Beteenden;Undvikande;Undirected;3;k
-Beteenden;Flykt;Undirected;3;k
-Beteenden;Säkerhetsbeteenden;Undirected;3;k
-Beteenden;Brist på återhämtning;Undirected;3;k
-Beteenden;För mycket återhämtning;Undirected;3;k
-Minne;Deklarativt minne;Undirected;1;y
-Minne;Inlärningsförmåga;Undirected;1;y
-Utmattningssyndrom;Stressorer;Undirected;5;e
-Stressorer;Skilsmässa;Undirected;3;e
-Stressorer;Bortgång av närstående;Undirected;3;e
-Stressorer;Konflikt på arbetet;Undirected;3;e
-Sömnproblem;Insomning;Undirected;1;r
-Sömnproblem;Uppvaknande;Undirected;1;r
+Utmattningssyndrom;Utmattningssyndrom;Directed;0;b
+Utmattningssyndrom;Kognitiva besvär;Directed;5;y
+Utmattningssyndrom;Fysiska besvär;Directed;5;r
+Utmattningssyndrom;Känslor;Directed;5;g
+Exekutiv funktion;Kognitiva besvär;Directed;3;y
+Minne;Kognitiva besvär;Directed;3;y
+Uppmärksamhet och tempo;Kognitiva besvär;Directed;3;y
+Trötthet;Fysiska besvär;Directed;2;r
+Energilöshet;Fysiska besvär;Directed;2;r
+Sömnproblem;Fysiska besvär;Directed;2;r
+Hjärtklappning;Fysiska besvär;Directed;2;r
+Yrsel;Fysiska besvär;Directed;2;r
+Värk;Fysiska besvär;Directed;2;r
+Mag och tarmbesvär;Fysiska besvär;Directed;2;r
+Skuld;Känslor;Directed;3;g
+Skam;Känslor;Directed;3;g
+Ångest;Känslor;Directed;3;g
+Utmattningssyndrom;Beteenden;Directed;5;k
+Beteenden;Undvikande;Directed;3;k
+Beteenden;Flykt;Directed;3;k
+Beteenden;Säkerhetsbeteenden;Directed;3;k
+Beteenden;Brist på återhämtning;Directed;3;k
+Beteenden;För mycket återhämtning;Directed;3;k
+Minne;Deklarativt minne;Directed;1;y
+Minne;Inlärningsförmåga;Directed;1;y
+Utmattningssyndrom;Stressorer;Directed;5;e
+Stressorer;Skilsmässa;Directed;3;e
+Stressorer;Bortgång av närstående;Directed;3;e
+Stressorer;Konflikt på arbetet;Directed;3;e
+Sömnproblem;Insomning;Directed;1;r
+Sömnproblem;Uppvaknande;Directed;1;r

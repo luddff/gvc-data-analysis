@@ -20,27 +20,47 @@ cmap = matplotlib.colors.ListedColormap(['tab:blue', '#7FFFD4',
                                          'lightsteelblue'
                                          , 'cornflowerblue'])
 
-# G = nx.balanced_tree(3, 5)
-
 
 pos = nx.nx_agraph.graphviz_layout(G, prog="twopi", args="")
 
 plt.figure(figsize=(25, 25))
 
-nx.draw_networkx_labels(G, pos, font_size=10,
+nx.draw_networkx_labels(G, pos, font_size=12,
                         horizontalalignment = 'center',
-                        font_color='black')
+                        font_color='black',
+                        bbox=dict(facecolor="white",
+                                  edgecolor='black',
+                                  boxstyle='round,pad=0.9')
+                                                )
+
+nx.draw_networkx_labels(G, pos, font_size=12,
+                        horizontalalignment = 'center',
+                        font_color='black',
+                        bbox=dict(facecolor="white",
+                                  edgecolor='black',
+                                  boxstyle='round,pad=0.9')
+                                                )
+# n = G.get_node(30)
+
+
+# bbox=({'boxstyle':'round',
+#        'color':'gray',
+#        'ec':'b',
+#        'pad':0.8})
+
+# data['color'].cat.codes code used to get seperate colors
 
 nx.draw(G, pos, alpha=0.8,
-        node_color=data['color'].cat.codes,
+        node_color='white',
         cmap=cmap,
         edge_color='gray', node_size=13000,
         arrows=True, width=list(widths.values()),
         font_family='Times New Roman',
         font_weight='bold',
-        arrowstyle='-|>'
+        arrowstyle='-|>', edgecolors='white',
+        connectionstyle='arc3, rad=0.2'        
+        
         )
-
 
 
 plt.axis("equal")
