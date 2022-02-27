@@ -1,0 +1,23 @@
+class Node:
+  def __init__(self, name, children):
+    self.children = []
+    self.name = name
+
+def find_node(current_node, name):
+  if current_node.name==name:
+    return current_node
+  found_node = None
+  for child in current_node.children:
+    found_node = find_node(child, name)
+  return found_node
+
+root_node = Node("root")
+
+for line in lines:
+  node_name = ...
+  node = find_node(root_node, node_name)
+  if node is None:
+    Node(node_name)
+  node.add_child()
+
+json
